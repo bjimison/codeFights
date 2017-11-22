@@ -24,3 +24,6 @@ var count = 0
     return count;
 }
 
+(Test cases) 
+inputArray: [1, 1, 1]
+inputArray: [-1000, 0, -2, 0]

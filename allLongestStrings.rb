@@ -10,3 +10,15 @@ def allLongestStrings(inputArray)
 # inputArray.map{|el| el.length}.max = inputArray.map(&:length).max
     inputArray.select {|el| el.length == max}
 end
+
+(Test cases)
+inputArray: ["aba", 
+ "aa", 
+ "ad", 
+ "vcd", 
+ "aba"]
+ inputArray: ["aa"]
+ inputArray: ["abc", 
+ "eeee", 
+ "abcd", 
+ "dcd"]
