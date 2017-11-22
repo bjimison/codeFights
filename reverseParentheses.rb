@@ -22,3 +22,6 @@ def reverseParentheses(s)
     end 
     return word 
 end
+
+s: "a(bc)de"
+s: "co(de(fight)s)"
