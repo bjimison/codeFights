@@ -1,3 +1,18 @@
+Given a rectangular matrix of characters, add a border of asterisks(*) to it.
+
+Example
+
+For
+
+picture = ["abc",
+           "ded"]
+the output should be
+
+addBorder(picture) = ["*****",
+                      "*abc*",
+                      "*ded*",
+                      "*****"]
+
 def addBorder(picture)
     len = picture[0].length 
     border = ""
@@ -15,3 +30,12 @@ end
 picture = ["abc",
            "ded"]
 print addBorder(picture)
+
+
+(Testcase) picture: ["abc", 
+ "ded"]
+
+(Testcase) picture: ["a"]
+
+
+
